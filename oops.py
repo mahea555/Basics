@@ -1,10 +1,10 @@
-class college:
-    def __init__(self, cn):
-        self.cn = cn
-    def get_name(self):
-        return 2
-    def set_name(self, name):
-        self.__name = namec
+# class college:
+#     def __init__(self, cn):
+#         self.cn = cn
+#     def get_name(self):
+#         return 2
+#     def set_name(self, name):
+#         self.__name = name
 class students(college):
     def __init__(self, nam, cn):
         self.nam = nam
