@@ -1,18 +1,18 @@
-# class college:
-#     def __init__(self, cn):
-#         self.cn = cn
-#     def get_name(self):
-#         return 2
-#     def set_name(self, name):
-#         self.__name = namec
-# class students(college):
-#     def __init__(self, nam, cn):
-#         self.nam = nam
-#         super().__init__(cn)
-#
-# s3 = students("vediya", "RCP")
-# print(s3.nam, s3.cn)
-# print(s3.get_name())
+class college:
+    def __init__(self, cn):
+        self.cn = cn
+    def get_name(self):
+        return 2
+    def set_name(self, name):
+        self.__name = namec
+class students(college):
+    def __init__(self, nam, cn):
+        self.nam = nam
+        super().__init__(cn)
+
+s3 = students("vediya", "RCP")
+print(s3.nam, s3.cn)
+print(s3.get_name())
 from abc import ABCMeta, abstractmethod
 class product(metaclass=ABCMeta):
     @abstractmethod
@@ -30,7 +30,7 @@ class shoe(mobile):
 
 obj = mobile()
 
-static variable"
+#static variable"
 class mobile:
     d = 0
     def __init__(self, price):
